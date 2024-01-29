@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Matrix Calculator</title>
+</head>
+
+<body>
+    <div class="container">
+        <h1>Matrix Calculator</h1>
+
+        <label for="matrixA">Matrix A:</label>
+        <textarea id="matrixA" placeholder="Enter matrix A"></textarea>
+
+        <label for="matrixB">Matrix B:</label>
+        <textarea id="matrixB" placeholder="Enter matrix B"></textarea>
+
+        <button onclick="addMatrices()">Add Matrices</button>
+        <button onclick="subtractMatrices()">Subtract Matrices</button>
+        <button onclick="multiplyMatrices()">Multiply Matrices</button>
+
+        <h2>Result:</h2>
+        <textarea id="result" readonly></textarea>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
